@@ -1,5 +1,21 @@
 {
   "item.simplemod.typescript_item": "TypeScript Item",
 
-  "block.simplemod.typescript_block": "TypeScript Block"
+  "block.simplemod.typescript_block": "TypeScript Block",
+  "block.simplemod.typescript_block.description": "The second best language block!",
+
+  "block.simplemod.javascript_block": "JavaScript Block",
+  "block.simplemod.javascript_block.description": "Ok, but not as good as TypeScript!",
+
+  "block.simplemod.java_block": "Java Block",
+  "block.simplemod.java_block.description": "The BEST language block!",
+
+  "block.simplemod.php_block": "PHP Block",
+  "block.simplemod.php_block.description": "Older than my grandma....",
+
+  "block.simplemod.python_block": "Python Block",
+  "block.simplemod.python_block.description": "Let's build an IA!",
+
+  "block.simplemod.cplusplus_block": "C++ Block",
+  "block.simplemod.cplusplus_block.description": "The best language for games!"
 }
