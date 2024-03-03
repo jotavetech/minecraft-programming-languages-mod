@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "" : {
+      "model": "simplemod:block/python_block"
+    }
+  }
+}

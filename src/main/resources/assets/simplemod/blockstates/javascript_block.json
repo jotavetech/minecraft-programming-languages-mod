@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "" : {
+      "model": "simplemod:block/javascript_block"
+    }
+  }
+}
