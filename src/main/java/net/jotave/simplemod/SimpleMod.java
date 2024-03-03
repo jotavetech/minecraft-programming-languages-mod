@@ -1,7 +1,9 @@
 package net.jotave.simplemod;
 
 import com.mojang.logging.LogUtils;
+import net.jotave.simplemod.block.ModBlocks;
 import net.jotave.simplemod.item.ModItems;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -33,6 +35,7 @@ public class SimpleMod
         // Registra o ModItems para que o Minecraft saiba que ele existe.
         // ModItems.ITEMS.register(modEventBus);
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         MinecraftForge.EVENT_BUS.register(this);
 
@@ -43,6 +46,9 @@ public class SimpleMod
     }
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
+        if(event.getTabKey() == CreativeModeTabs.REDSTONE_BLOCKS) {
+            event.accept(ModBlocks.TYPESCRIPT_BLOCK);
+        }
     }
 
     @SubscribeEvent

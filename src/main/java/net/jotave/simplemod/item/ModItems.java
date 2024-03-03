@@ -13,8 +13,8 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, SimpleMod.MODID);
 
     // Adicionamos um novo item ao registro de itens.
-    public static final RegistryObject<Item> TYPESCRIPT_BLOCK =
-            ITEMS.register("typescript_block", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> TYPESCRIPT_ITEM =
+            ITEMS.register("typescript_item", () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
