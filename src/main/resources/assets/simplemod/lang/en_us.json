@@ -17,5 +17,8 @@
   "block.simplemod.python_block.description": "Let's build an IA!",
 
   "block.simplemod.cplusplus_block": "C++ Block",
-  "block.simplemod.cplusplus_block.description": "The best language for games!"
+  "block.simplemod.cplusplus_block.description": "The best language for games!",
+
+  "block.simplemod.cplusplus_block": "Rust Block",
+  "block.simplemod.cplusplus_block.description": "Rust. THE MONSTER!"
 }

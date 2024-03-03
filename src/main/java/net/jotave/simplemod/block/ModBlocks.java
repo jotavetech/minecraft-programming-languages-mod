@@ -37,6 +37,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> CPLUSPLUS_BLOCK = registerBlock("cplusplus_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.BRICKS).sound(SoundType.AMETHYST)));
 
+    public static final RegistryObject<Block> RUST_BLOCK = registerBlock("rust_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.BRICKS).sound(SoundType.AMETHYST)));
+
     // Adicionamos um novo bloco ao registro de blocos e o registramos como um item.
     private static <T extends Block> RegistryObject<T> registerBlock (String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
