@@ -20,7 +20,22 @@ public class ModBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, SimpleMod.MODID);
 
     public static final RegistryObject<Block> TYPESCRIPT_BLOCK = registerBlock("typescript_block",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIAMOND_BLOCK).sound(SoundType.METAL)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.BRICKS).sound(SoundType.AMETHYST)));
+
+    public static final RegistryObject<Block> JAVASCRIPT_BLOCK = registerBlock("javascript_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.BRICKS).sound(SoundType.AMETHYST)));
+
+    public static final RegistryObject<Block> JAVA_BLOCK = registerBlock("java_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.BRICKS).sound(SoundType.AMETHYST)));
+
+    public static final RegistryObject<Block> PHP_BLOCK = registerBlock("php_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.BRICKS).sound(SoundType.AMETHYST)));
+
+    public static final RegistryObject<Block> PYTHON_BLOCK = registerBlock("python_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.BRICKS).sound(SoundType.AMETHYST)));
+
+    public static final RegistryObject<Block> CPLUSPLUS_BLOCK = registerBlock("cplusplus_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.BRICKS).sound(SoundType.AMETHYST)));
 
     // Adicionamos um novo bloco ao registro de blocos e o registramos como um item.
     private static <T extends Block> RegistryObject<T> registerBlock (String name, Supplier<T> block) {
