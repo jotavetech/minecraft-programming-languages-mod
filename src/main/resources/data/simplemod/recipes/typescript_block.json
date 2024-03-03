@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "#$#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:redstone"
+    },
+    "$": {
+      "item": "simplemod:javascript_block"
+    }
+  },
+  "result": {
+    "item": "simplemod:typescript_block",
+    "count": 1
+  }
+}
