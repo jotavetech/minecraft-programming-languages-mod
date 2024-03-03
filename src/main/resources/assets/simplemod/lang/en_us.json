@@ -19,6 +19,6 @@
   "block.simplemod.cplusplus_block": "C++ Block",
   "block.simplemod.cplusplus_block.description": "The best language for games!",
 
-  "block.simplemod.cplusplus_block": "Rust Block",
-  "block.simplemod.cplusplus_block.description": "Rust. THE MONSTER!"
+  "block.simplemod.rust_block": "Rust Block",
+  "block.simplemod.rust_block.description": "Rust. THE MONSTER!"
 }
